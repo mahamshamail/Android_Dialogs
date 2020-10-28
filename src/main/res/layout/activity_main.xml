@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PRACTICE ANDROID DIALOGS"
+        android:layout_margin="20dp"
+        />
+
+    <Button
+        android:id="@+id/alert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Open Alert Dialog"
+        android:onClick="alertDialog"
+        android:layout_margin="20dp"
+        tools:ignore="OnClick" />
+
+    <Button
+        android:id="@+id/customDialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Open Custom Dialog"
+        android:onClick="customDialog"
+        android:layout_margin="20dp"
+        tools:ignore="OnClick" />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Custom dialog will return USERNAME here"
+        android:layout_margin="20dp"
+        />
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Custom dialog will return PASSWORD here"
+
+        />
+
+    <Button
+        android:id="@+id/dateDialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Date Dialog"
+        android:onClick="dateDialog"
+        android:layout_margin="20dp"
+        tools:ignore="OnClick" />
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Date Dialog will return date here"
+        android:layout_margin="20dp"
+        />
+
+
+</LinearLayout>

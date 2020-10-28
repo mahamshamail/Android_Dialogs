@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:layout_margin="40dp"
+    android:gravity="center_vertical"
+
+    >
+
+
+    <TextView
+        android:id="@+id/Welcome"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome!"
+        android:textColor="@android:color/holo_blue_dark"
+        android:typeface="monospace"
+        android:padding="10dp"
+
+        />
+    <TextView
+        android:id="@+id/passwordTV"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="20sp"
+        android:typeface="monospace"
+        android:padding="10dp"
+
+        />
+    <TextView
+        android:id="@+id/userNameTV"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="20sp"
+        android:typeface="monospace"
+        android:padding="10dp"
+
+        />
+
+
+    <EditText
+        android:id="@+id/EnterUsername"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Enter Username"
+
+        >
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/EnterPassword"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Enter Password                 "
+        android:inputType="textPassword"
+        >
+    </EditText>
+
+
+
+
+
+
+
+
+
+</LinearLayout>
